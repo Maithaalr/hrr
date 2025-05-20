@@ -1,4 +1,12 @@
-<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+st.markdown("""
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <style>
+    html, body, [class*="css"]  {
+        font-family: 'Cairo', sans-serif;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
