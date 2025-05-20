@@ -1,3 +1,8 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+from PIL import Image
+
 st.markdown("""
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <style>
@@ -7,10 +12,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-from PIL import Image
 
 
 # ---------- إعداد الصفحة العامة ---------- #
